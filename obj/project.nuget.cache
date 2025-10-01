@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W3WkdRVbRYbRCki8Als95HxRVIbVqfeY0Ixu/DLrgOG8T4ZMWUP95o/GaNJh5tG3qCBhkFIZRBhrPnq4/2o+Sw==",
+  "dgSpecHash": "bktGs0khGXkUEWEQk3Wej9PDIMOMvRrvUMYdVkjYAqPkT0jzFV7b5pjIe+Pv0h4WkDxZyPoF/XtoG7DzUm6TVw==",
   "success": true,
   "projectFilePath": "/Users/areebabbas/Projects/Test/Test/Test.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.1/microsoft.entityframeworkcore.abstractions.7.0.1.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.1/microsoft.entityframeworkcore.analyzers.7.0.1.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.design/7.0.0/microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
-    "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.0/microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
+    "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.1/microsoft.entityframeworkcore.relational.7.0.1.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.0/microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0/microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
@@ -62,6 +62,8 @@
     "/Users/areebabbas/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/newtonsoft.json/7.0.1/newtonsoft.json.7.0.1.nupkg.sha512",
+    "/Users/areebabbas/.nuget/packages/npgsql/7.0.1/npgsql.7.0.1.nupkg.sha512",
+    "/Users/areebabbas/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.1/npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/areebabbas/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",

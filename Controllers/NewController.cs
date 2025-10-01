@@ -3,35 +3,41 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
-
+using Npgsql;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Test.Controllers
 {
     public class NewController : Controller
     {
-        private readonly string connectionString = "Server=localhost,1433;Database=Test;User Id=sa;Password=Qaz@xsw12;Encrypt=False";
+        private readonly string connectionString = "Host=localhost,5432,1433;Database=Test;Username=sa1;Password=Qaz_xsw12;";
 
         [HttpGet("/new")]
         public IActionResult Index()
         {
-            var databases = new List<string>();
+            var newsTitles = new List<string>();
 
-            using (var connection = new SqlConnection(connectionString))
+            using (var connection = new NpgsqlConnection(connectionString))
             {
                 connection.Open();
 
-                using (var command = new SqlCommand("SELECT name FROM sys.databases", connection))
+                var command = new NpgsqlCommand("SELECT \"NewId\", \"Number\" FROM \"public\".\"News\"", connection);
+
+
+
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        databases.Add(reader.GetString(0));
+                        int newId = reader.GetInt32(0);
+                        newsTitles.Add(newId.ToString());
+
                     }
                 }
             }
 
             // Pass list to view
-            return View(databases);
+            return View(newsTitles);
         }
     }
 }
