@@ -10,7 +10,7 @@ namespace Test.Controllers
 {
     public class NewController : Controller
     {
-        private readonly string connectionString = "Host=localhost,5432,1433;Database=Test;Username=sa1;Password=Qaz_xsw12;";
+        private readonly string connectionString = "Host=postgresql,5432,1433;Database=Test;Username=sa1;Password=Qaz_xsw12;";
 
         [HttpGet("/new")]
         public IActionResult Index()
